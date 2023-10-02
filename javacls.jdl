@@ -1,0 +1,50 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName javacls
+    blueprints []
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme yeti
+    creationTimestamp 1696213242419
+    databaseType undefined
+    devDatabaseType mysql
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jwtSecretKey "CYRXa/7yYU1eHRsN68mYO/w3Uo77iHMUuv9sfJh41EUzYSwaWinbhqeotQtz8BQvuXuVs8XwLE0/qd+dnXYij+k0jrH7jUpP+V8donwqn71fPfw0CqHGZXPHEasNs+A9mV4C0LCzivbyJT3WDdw1MWvkbZ1+sD8Du0Iz++HgSQ=="
+    languages [en, my]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName my.codebridge.community.javacls
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
